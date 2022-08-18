@@ -59,9 +59,11 @@ class ViewController: UIViewController {
         let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
         // create post request
-        let url = URL(string: "http://10.0.1.130:8080/activateworm")!
+        let url = URL(string: "http://happyfacesteeringwheel.com/activateworm")!
+        //let url = URL(string: "http://danbniss.melina/activateworm")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
+        
 
         // insert json data to the request
         request.httpBody = jsonData
