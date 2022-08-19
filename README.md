@@ -1,4 +1,4 @@
-# wormsite
+# swiftapp
 A short project created using technology completely that I was unfamililar with.
 Tech: Swift, Xcode, Java, Spring Boot, HTML, CSS, JavaScript.
 Created a very simple iOS app, comprising a single button and a simple webpage with text telling users to wait for an image to appear.
